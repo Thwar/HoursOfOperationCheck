@@ -1,3 +1,6 @@
+//HoursOfOperationCheck.js by Thomas Rosales 
+
+//EDIT WEEKDAY OPERATION HOURS BELOW
 var week = [{
     //  day: 'Sunday'
     isOpen: false,
@@ -35,7 +38,7 @@ var week = [{
     closeTime: '21:00'
 }];
 
-
+//Call this function for boolean value
 function checkBusinessStatus() {
     var status;
     var dt = new Date();
@@ -50,7 +53,7 @@ function checkBusinessStatus() {
     //Loop week times 
     $.each(week, function (dayNum, value) {
 
-        //If 
+        //Check current weekday time with stored weekday values
         if (dayNum == currentWeekDayNum) {
 
             var openTime = value.openTime.replace(":", "");
@@ -66,8 +69,8 @@ function checkBusinessStatus() {
                 // alert('CLOSED');
                 status = false;
             }
-            return false;
+            return false; //break loop we are done
         }
     });
-    return status;
+    return status; // Return false if closed | true if open
 }
