@@ -59,8 +59,6 @@ function checkBusinessStatus() {
             openTime = parseInt(openTime, 10);
             closeTime = parseInt(closeTime, 10);
 
-            alert(dayNum + '\n' + value.isOpen + '\nopening time:' + openTime + '\nclosing time:' + closeTime + '\nCurrent Time:' + currentTime);
-
             if ((currentTime >= openTime) && (currentTime < closeTime) && value.isOpen === true) {
                 // alert('OPEN');
                 status = true;
