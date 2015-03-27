@@ -1,4 +1,5 @@
 //HoursOfOperationCheck.js by Thomas Rosales 
+//Version v1.0 3/27/2015
 
 //EDIT WEEKDAY OPERATION HOURS BELOW
 var week = [{
