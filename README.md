@@ -13,4 +13,4 @@ HoursOfOperationCheck is a developer friendly JQuery function that checks if you
 Call checkBusinessStatus() to return a boolean for the status of the business (closed = false, open = true)
 
 # Example
-https://jsfiddle.net/xpkbb6nt/14/
+https://jsfiddle.net/xpkbb6nt/15/
