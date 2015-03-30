@@ -1,5 +1,6 @@
 # HoursOfOperationCheck.js
 Auuthor: Thomas Rosales
+
 HoursOfOperationCheck v1.0 is a developer friendly JQuery script that checks if your business is currently open.
 
 # How is works:
